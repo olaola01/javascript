@@ -85,8 +85,8 @@ function init () {
     activePlayer = 0
     gamePlaying = true
 
-    document.getElementById('dice-1').style.display = 'block'
-    document.getElementById('dice-2').style.display = 'block'
+    document.getElementById('dice-1').style.display = 'none'
+    document.getElementById('dice-2').style.display = 'none'
     document.getElementById('score-0').innerText = '0'
     document.getElementById('score-1').innerText = '0'
     document.getElementById('current-0').innerText = '0'
